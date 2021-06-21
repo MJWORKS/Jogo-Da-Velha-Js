@@ -1,0 +1,65 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: url("media/pexels-fwstudio-129733.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;}
+.square{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #D9A273;
+    border: 2px solid #260B01;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\2615";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\1F369";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#botao{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #a35e33;
+    font-size: 20px;
+    text-align: center;
+    color: #260B01;
+}
+.jogo{
+    color: #260B01;
+    font-size: 55px;
+}
